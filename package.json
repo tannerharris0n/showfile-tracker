@@ -1,0 +1,32 @@
+{
+  "name": "showfile-tracker",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Open-source showfile metadata library for lighting designers.",
+  "license": "MIT",
+  "author": "Tanner Harrison <NW Lighting>",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:server": "node server.cjs",
+    "build": "vite build",
+    "start": "node server.cjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.10.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "marked": "^14.1.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.8"
+  }
+}
