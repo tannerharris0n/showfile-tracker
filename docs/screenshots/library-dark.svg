@@ -1,0 +1,246 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 820" font-family="'Inter','DM Sans','Helvetica Neue',sans-serif">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- App background -->
+  <rect width="1280" height="820" fill="#0d0c0a"/>
+
+  <!-- Window chrome (subtle) -->
+  <rect x="0" y="0" width="1280" height="32" fill="#15140f"/>
+  <circle cx="18" cy="16" r="5" fill="#e2725b"/>
+  <circle cx="36" cy="16" r="5" fill="#f0b557"/>
+  <circle cx="54" cy="16" r="5" fill="#7fb069"/>
+  <text x="640" y="20" font-size="11" fill="#5a5448" text-anchor="middle">localhost:3000 — Showfile Tracker</text>
+
+  <!-- Content container (max-width 1200, centered) -->
+  <g transform="translate(64,68)">
+
+    <!-- Header -->
+    <g>
+      <circle cx="9" cy="9" r="6" fill="#f0b557" filter="url(#glow)"/>
+      <text x="24" y="14" font-size="22" font-weight="700" fill="#f4ede0" letter-spacing="-0.4">Showfile Tracker</text>
+      <text x="24" y="34" font-size="13" fill="#8a8270">Lighting designers' showfile metadata library
+        <tspan fill="#f0b557"> · open mode</tspan>
+      </text>
+
+      <!-- Theme + logout buttons -->
+      <g transform="translate(1000,0)">
+        <rect x="0" y="0" width="76" height="32" rx="8" fill="#15140f" stroke="#2b281f"/>
+        <text x="38" y="20" font-size="12" fill="#8a8270" text-anchor="middle">☼ light</text>
+        <rect x="84" y="0" width="64" height="32" rx="8" fill="#15140f" stroke="#2b281f"/>
+        <text x="116" y="20" font-size="12" fill="#8a8270" text-anchor="middle">logout</text>
+      </g>
+    </g>
+
+    <!-- Tabs -->
+    <g transform="translate(0,64)">
+      <line x1="0" y1="44" x2="1152" y2="44" stroke="#2b281f"/>
+      <text x="18" y="28" font-size="14" font-weight="600" fill="#f4ede0">Library</text>
+      <rect x="0" y="43" width="74" height="2" fill="#f0b557"/>
+      <text x="100" y="28" font-size="14" font-weight="500" fill="#8a8270">Events</text>
+      <text x="170" y="28" font-size="14" font-weight="500" fill="#8a8270">+ Add</text>
+      <text x="230" y="28" font-size="14" font-weight="500" fill="#8a8270">Settings</text>
+    </g>
+
+    <!-- Filters row -->
+    <g transform="translate(0,128)">
+      <rect x="0" y="0" width="380" height="38" rx="8" fill="#15140f" stroke="#2b281f"/>
+      <text x="14" y="24" font-size="13" fill="#5a5448">Search name, venue, client, notes, tags…</text>
+
+      <rect x="392" y="0" width="160" height="38" rx="8" fill="#15140f" stroke="#2b281f"/>
+      <text x="406" y="24" font-size="13" fill="#d8d0bf">Sort: Last used</text>
+      <text x="540" y="23" font-size="10" fill="#8a8270">▾</text>
+
+      <rect x="568" y="12" width="14" height="14" rx="3" fill="#15140f" stroke="#3a3628"/>
+      <text x="590" y="24" font-size="13" fill="#8a8270">show archived</text>
+    </g>
+
+    <!-- Console chip row -->
+    <g transform="translate(0,182)" font-size="12">
+      <!-- All -->
+      <g><rect x="0" y="0" width="44" height="26" rx="13" fill="#15140f" stroke="#3a3628"/>
+        <text x="22" y="17" font-weight="600" fill="#f4ede0" text-anchor="middle">All</text></g>
+      <!-- Eos (active visual) -->
+      <g transform="translate(52,0)"><rect width="64" height="26" rx="13" fill="transparent" stroke="#2b281f"/>
+        <circle cx="13" cy="13" r="4" fill="#5b9bd5"/>
+        <text x="38" y="17" fill="#8a8270" text-anchor="middle">Eos</text></g>
+      <g transform="translate(124,0)"><rect width="64" height="26" rx="13" fill="transparent" stroke="#2b281f"/>
+        <circle cx="13" cy="13" r="4" fill="#d97757"/>
+        <text x="38" y="17" fill="#8a8270" text-anchor="middle">MA2</text></g>
+      <g transform="translate(196,0)"><rect width="64" height="26" rx="13" fill="transparent" stroke="#2b281f"/>
+        <circle cx="13" cy="13" r="4" fill="#e08b3c"/>
+        <text x="38" y="17" fill="#8a8270" text-anchor="middle">MA3</text></g>
+      <g transform="translate(268,0)"><rect width="84" height="26" rx="13" fill="transparent" stroke="#2b281f"/>
+        <circle cx="13" cy="13" r="4" fill="#b85cb8"/>
+        <text x="48" y="17" fill="#8a8270" text-anchor="middle">Avolites</text></g>
+      <g transform="translate(360,0)"><rect width="68" height="26" rx="13" fill="transparent" stroke="#2b281f"/>
+        <circle cx="13" cy="13" r="4" fill="#7ab877"/>
+        <text x="40" y="17" fill="#8a8270" text-anchor="middle">Hog 4</text></g>
+      <g transform="translate(436,0)"><rect width="78" height="26" rx="13" fill="transparent" stroke="#2b281f"/>
+        <circle cx="13" cy="13" r="4" fill="#d4a23e"/>
+        <text x="45" y="17" fill="#8a8270" text-anchor="middle">ChamSys</text></g>
+      <g transform="translate(522,0)"><rect width="60" height="26" rx="13" fill="transparent" stroke="#2b281f"/>
+        <circle cx="13" cy="13" r="4" fill="#9b7ed6"/>
+        <text x="36" y="17" fill="#8a8270" text-anchor="middle">Onyx</text></g>
+      <g transform="translate(590,0)"><rect width="60" height="26" rx="13" fill="transparent" stroke="#2b281f"/>
+        <circle cx="13" cy="13" r="4" fill="#8a8270"/>
+        <text x="36" y="17" fill="#8a8270" text-anchor="middle">Other</text></g>
+    </g>
+
+    <!-- Status line -->
+    <text x="0" y="236" font-size="12" font-family="'JetBrains Mono','Menlo',monospace" fill="#8a8270">14 showfiles</text>
+
+    <!-- Cards grid (3 cols × 2 rows). col width ~370, gap 14, h ~210 -->
+    <g transform="translate(0,256)" font-size="13">
+
+      <!-- Card 1: Eos -->
+      <g filter="url(#cardShadow)">
+        <rect width="370" height="210" rx="12" fill="#15140f" stroke="#5b9bd5"/>
+        <!-- pill -->
+        <rect x="16" y="16" width="74" height="22" rx="11" fill="#5b9bd522" stroke="#5b9bd555"/>
+        <circle cx="27" cy="27" r="3" fill="#5b9bd5"/>
+        <text x="36" y="31" font-size="11" font-weight="600" fill="#5b9bd5">Eos
+          <tspan fill="#8a8270" dx="3">3.2.7</tspan>
+        </text>
+        <!-- name -->
+        <text x="16" y="74" font-size="15" font-weight="600" fill="#f4ede0">Easter — Grace Community 2025</text>
+        <!-- client / venue -->
+        <text x="16" y="98" font-size="12" fill="#d8d0bf"><tspan fill="#5a5448">client </tspan>Grace Community Church</text>
+        <text x="16" y="116" font-size="12" fill="#d8d0bf"><tspan fill="#5a5448">venue </tspan>Sanctuary, Bellevue WA</text>
+        <!-- tags -->
+        <g transform="translate(16,134)">
+          <rect width="46" height="20" rx="10" fill="#1d1b15" stroke="#2b281f"/>
+          <text x="23" y="14" font-size="11" fill="#8a8270" text-anchor="middle">church</text>
+          <rect x="52" width="58" height="20" rx="10" fill="#1d1b15" stroke="#2b281f"/>
+          <text x="81" y="14" font-size="11" fill="#8a8270" text-anchor="middle">holiday</text>
+          <rect x="118" width="38" height="20" rx="10" fill="#1d1b15" stroke="#2b281f"/>
+          <text x="137" y="14" font-size="11" fill="#8a8270" text-anchor="middle">Ti</text>
+        </g>
+        <!-- footer -->
+        <line x1="16" y1="178" x2="354" y2="178" stroke="#2b281f"/>
+        <text x="16" y="196" font-size="11" font-family="'JetBrains Mono',monospace" fill="#8a8270">4 events · 6 weeks ago</text>
+        <rect x="290" y="184" width="64" height="20" rx="6" fill="#1d1b15" stroke="#2b281f"/>
+        <text x="322" y="198" font-size="11" font-weight="600" fill="#f0b557" text-anchor="middle">↗ open</text>
+      </g>
+
+      <!-- Card 2: MA3 -->
+      <g transform="translate(384,0)" filter="url(#cardShadow)">
+        <rect width="370" height="210" rx="12" fill="#15140f" stroke="#2b281f"/>
+        <rect x="16" y="16" width="84" height="22" rx="11" fill="#e08b3c22" stroke="#e08b3c55"/>
+        <circle cx="27" cy="27" r="3" fill="#e08b3c"/>
+        <text x="36" y="31" font-size="11" font-weight="600" fill="#e08b3c">MA3
+          <tspan fill="#8a8270" dx="3">2.1.0.2</tspan>
+        </text>
+        <text x="16" y="74" font-size="15" font-weight="600" fill="#f4ede0">Acme Corp Tour — Spring 2026</text>
+        <text x="16" y="98" font-size="12" fill="#d8d0bf"><tspan fill="#5a5448">client </tspan>Acme Productions</text>
+        <text x="16" y="116" font-size="12" fill="#d8d0bf"><tspan fill="#5a5448">venue </tspan>22-city US tour</text>
+        <g transform="translate(16,134)">
+          <rect width="38" height="20" rx="10" fill="#1d1b15" stroke="#2b281f"/>
+          <text x="19" y="14" font-size="11" fill="#8a8270" text-anchor="middle">tour</text>
+          <rect x="46" width="64" height="20" rx="10" fill="#1d1b15" stroke="#2b281f"/>
+          <text x="78" y="14" font-size="11" fill="#8a8270" text-anchor="middle">corporate</text>
+          <rect x="118" width="46" height="20" rx="10" fill="#1d1b15" stroke="#2b281f"/>
+          <text x="141" y="14" font-size="11" fill="#8a8270" text-anchor="middle">primary</text>
+        </g>
+        <line x1="16" y1="178" x2="354" y2="178" stroke="#2b281f"/>
+        <text x="16" y="196" font-size="11" font-family="'JetBrains Mono',monospace" fill="#8a8270">22 events · 3 days ago</text>
+        <rect x="290" y="184" width="64" height="20" rx="6" fill="#1d1b15" stroke="#2b281f"/>
+        <text x="322" y="198" font-size="11" font-weight="600" fill="#f0b557" text-anchor="middle">↗ open</text>
+      </g>
+
+      <!-- Card 3: Hog 4 -->
+      <g transform="translate(768,0)" filter="url(#cardShadow)">
+        <rect width="370" height="210" rx="12" fill="#15140f" stroke="#2b281f"/>
+        <rect x="16" y="16" width="74" height="22" rx="11" fill="#7ab87722" stroke="#7ab87755"/>
+        <circle cx="27" cy="27" r="3" fill="#7ab877"/>
+        <text x="36" y="31" font-size="11" font-weight="600" fill="#7ab877">Hog 4
+          <tspan fill="#8a8270" dx="3">3.20</tspan>
+        </text>
+        <text x="16" y="74" font-size="15" font-weight="600" fill="#f4ede0">Seattle Symphony — Pops Series</text>
+        <text x="16" y="98" font-size="12" fill="#d8d0bf"><tspan fill="#5a5448">client </tspan>Seattle Symphony</text>
+        <text x="16" y="116" font-size="12" fill="#d8d0bf"><tspan fill="#5a5448">venue </tspan>Benaroya Hall</text>
+        <g transform="translate(16,134)">
+          <rect width="62" height="20" rx="10" fill="#1d1b15" stroke="#2b281f"/>
+          <text x="31" y="14" font-size="11" fill="#8a8270" text-anchor="middle">orchestra</text>
+          <rect x="70" width="42" height="20" rx="10" fill="#1d1b15" stroke="#2b281f"/>
+          <text x="91" y="14" font-size="11" fill="#8a8270" text-anchor="middle">house</text>
+        </g>
+        <line x1="16" y1="178" x2="354" y2="178" stroke="#2b281f"/>
+        <text x="16" y="196" font-size="11" font-family="'JetBrains Mono',monospace" fill="#8a8270">9 events · 2 weeks ago</text>
+        <rect x="290" y="184" width="64" height="20" rx="6" fill="#1d1b15" stroke="#2b281f"/>
+        <text x="322" y="198" font-size="11" font-weight="600" fill="#f0b557" text-anchor="middle">↗ open</text>
+      </g>
+
+      <!-- Card 4: ChamSys -->
+      <g transform="translate(0,224)" filter="url(#cardShadow)">
+        <rect width="370" height="210" rx="12" fill="#15140f" stroke="#2b281f"/>
+        <rect x="16" y="16" width="92" height="22" rx="11" fill="#d4a23e22" stroke="#d4a23e55"/>
+        <circle cx="27" cy="27" r="3" fill="#d4a23e"/>
+        <text x="36" y="31" font-size="11" font-weight="600" fill="#d4a23e">ChamSys
+          <tspan fill="#8a8270" dx="3">v11</tspan>
+        </text>
+        <text x="16" y="74" font-size="15" font-weight="600" fill="#f4ede0">Velvet Lounge — House Rig</text>
+        <text x="16" y="98" font-size="12" fill="#d8d0bf"><tspan fill="#5a5448">client </tspan>Velvet Lounge</text>
+        <text x="16" y="116" font-size="12" fill="#d8d0bf"><tspan fill="#5a5448">venue </tspan>Capitol Hill, Seattle</text>
+        <g transform="translate(16,134)">
+          <rect width="38" height="20" rx="10" fill="#1d1b15" stroke="#2b281f"/>
+          <text x="19" y="14" font-size="11" fill="#8a8270" text-anchor="middle">club</text>
+          <rect x="46" width="44" height="20" rx="10" fill="#1d1b15" stroke="#2b281f"/>
+          <text x="68" y="14" font-size="11" fill="#8a8270" text-anchor="middle">house</text>
+        </g>
+        <line x1="16" y1="178" x2="354" y2="178" stroke="#2b281f"/>
+        <text x="16" y="196" font-size="11" font-family="'JetBrains Mono',monospace" fill="#8a8270">38 events · yesterday</text>
+        <rect x="290" y="184" width="64" height="20" rx="6" fill="#1d1b15" stroke="#2b281f"/>
+        <text x="322" y="198" font-size="11" font-weight="600" fill="#f0b557" text-anchor="middle">↗ open</text>
+      </g>
+
+      <!-- Card 5: Eos backup -->
+      <g transform="translate(384,224)" filter="url(#cardShadow)">
+        <rect width="370" height="210" rx="12" fill="#15140f" stroke="#2b281f"/>
+        <rect x="16" y="16" width="74" height="22" rx="11" fill="#5b9bd522" stroke="#5b9bd555"/>
+        <circle cx="27" cy="27" r="3" fill="#5b9bd5"/>
+        <text x="36" y="31" font-size="11" font-weight="600" fill="#5b9bd5">Eos
+          <tspan fill="#8a8270" dx="3">3.2.4</tspan>
+        </text>
+        <text x="16" y="74" font-size="15" font-weight="600" fill="#f4ede0">Wedding — Henderson / Park</text>
+        <text x="16" y="98" font-size="12" fill="#d8d0bf"><tspan fill="#5a5448">client </tspan>Sandra @ Northwest Events</text>
+        <text x="16" y="116" font-size="12" fill="#d8d0bf"><tspan fill="#5a5448">venue </tspan>Sodo Park</text>
+        <g transform="translate(16,134)">
+          <rect width="58" height="20" rx="10" fill="#1d1b15" stroke="#2b281f"/>
+          <text x="29" y="14" font-size="11" fill="#8a8270" text-anchor="middle">wedding</text>
+          <rect x="66" width="46" height="20" rx="10" fill="#1d1b15" stroke="#2b281f"/>
+          <text x="89" y="14" font-size="11" fill="#8a8270" text-anchor="middle">backup</text>
+        </g>
+        <line x1="16" y1="178" x2="354" y2="178" stroke="#2b281f"/>
+        <text x="16" y="196" font-size="11" font-family="'JetBrains Mono',monospace" fill="#8a8270">1 event · 9 months ago</text>
+        <rect x="290" y="184" width="64" height="20" rx="6" fill="#1d1b15" stroke="#2b281f"/>
+        <text x="322" y="198" font-size="11" font-weight="600" fill="#f0b557" text-anchor="middle">↗ open</text>
+      </g>
+
+      <!-- Card 6: archived MA2 -->
+      <g transform="translate(768,224)" opacity="0.62" filter="url(#cardShadow)">
+        <rect width="370" height="210" rx="12" fill="#15140f" stroke="#2b281f"/>
+        <rect x="16" y="16" width="64" height="22" rx="11" fill="#d9775722" stroke="#d9775755"/>
+        <circle cx="27" cy="27" r="3" fill="#d97757"/>
+        <text x="36" y="31" font-size="11" font-weight="600" fill="#d97757">MA2
+          <tspan fill="#8a8270" dx="3">3.9</tspan>
+        </text>
+        <rect x="290" y="16" width="64" height="22" rx="11" fill="#1d1b15" stroke="#2b281f"/>
+        <text x="322" y="31" font-size="11" fill="#5a5448" text-anchor="middle">archived</text>
+        <text x="16" y="74" font-size="15" font-weight="600" fill="#f4ede0">Holiday Spectacular '23</text>
+        <text x="16" y="98" font-size="12" fill="#d8d0bf"><tspan fill="#5a5448">client </tspan>City Lights Productions</text>
+        <text x="16" y="116" font-size="12" fill="#d8d0bf"><tspan fill="#5a5448">venue </tspan>McCaw Hall</text>
+        <line x1="16" y1="178" x2="354" y2="178" stroke="#2b281f"/>
+        <text x="16" y="196" font-size="11" font-family="'JetBrains Mono',monospace" fill="#8a8270">12 events · 1 year ago</text>
+      </g>
+
+    </g>
+  </g>
+</svg>

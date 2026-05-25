@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" font-family="'Inter','DM Sans','Helvetica Neue',sans-serif">
+  <defs>
+    <filter id="cardShadow2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-color="#000" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" fill="#faf7f0"/>
+
+  <rect x="0" y="0" width="1280" height="32" fill="#f2eee3"/>
+  <circle cx="18" cy="16" r="5" fill="#a83a25"/>
+  <circle cx="36" cy="16" r="5" fill="#b8761e"/>
+  <circle cx="54" cy="16" r="5" fill="#4f7a2f"/>
+  <text x="640" y="20" font-size="11" fill="#a59a82" text-anchor="middle">localhost:3000 — Showfile Tracker (light theme)</text>
+
+  <g transform="translate(64,68)">
+
+    <!-- Header -->
+    <circle cx="9" cy="9" r="6" fill="#b8761e"/>
+    <text x="24" y="14" font-size="22" font-weight="700" fill="#1a1408" letter-spacing="-0.4">Showfile Tracker</text>
+    <text x="24" y="34" font-size="13" fill="#7a6f5a">Lighting designers' showfile metadata library</text>
+
+    <g transform="translate(1000,0)">
+      <rect x="0" y="0" width="76" height="32" rx="8" fill="#ffffff" stroke="#e1dccd"/>
+      <text x="38" y="20" font-size="12" fill="#7a6f5a" text-anchor="middle">☾ dark</text>
+    </g>
+
+    <!-- Tabs -->
+    <g transform="translate(0,64)">
+      <line x1="0" y1="44" x2="1152" y2="44" stroke="#e1dccd"/>
+      <text x="18" y="28" font-size="14" font-weight="600" fill="#1a1408">Library</text>
+      <rect x="0" y="43" width="74" height="2" fill="#b8761e"/>
+      <text x="100" y="28" font-size="14" font-weight="500" fill="#7a6f5a">Events</text>
+      <text x="170" y="28" font-size="14" font-weight="500" fill="#7a6f5a">+ Add</text>
+      <text x="230" y="28" font-size="14" font-weight="500" fill="#7a6f5a">Settings</text>
+    </g>
+
+    <!-- Filters -->
+    <g transform="translate(0,128)">
+      <rect x="0" y="0" width="380" height="38" rx="8" fill="#ffffff" stroke="#e1dccd"/>
+      <text x="14" y="24" font-size="13" fill="#a59a82">Search name, venue, client, notes, tags…</text>
+
+      <rect x="392" y="0" width="160" height="38" rx="8" fill="#ffffff" stroke="#e1dccd"/>
+      <text x="406" y="24" font-size="13" fill="#3d342a">Sort: Last used</text>
+    </g>
+
+    <!-- Cards: 3 in light -->
+    <g transform="translate(0,200)" font-size="13">
+      <g filter="url(#cardShadow2)">
+        <rect width="370" height="200" rx="12" fill="#ffffff" stroke="#3d6480"/>
+        <rect x="16" y="16" width="56" height="22" rx="11" fill="#3d648014" stroke="#3d648055"/>
+        <circle cx="27" cy="27" r="3" fill="#3d6480"/>
+        <text x="36" y="31" font-size="11" font-weight="600" fill="#3d6480">Eos</text>
+        <text x="16" y="74" font-size="15" font-weight="600" fill="#1a1408">Easter — Grace Community 2025</text>
+        <text x="16" y="98" font-size="12" fill="#3d342a"><tspan fill="#a59a82">client </tspan>Grace Community Church</text>
+        <text x="16" y="116" font-size="12" fill="#3d342a"><tspan fill="#a59a82">venue </tspan>Sanctuary, Bellevue WA</text>
+        <line x1="16" y1="170" x2="354" y2="170" stroke="#e1dccd"/>
+        <text x="16" y="188" font-size="11" font-family="'JetBrains Mono',monospace" fill="#7a6f5a">4 events · 6 weeks ago</text>
+        <rect x="290" y="176" width="64" height="20" rx="6" fill="#f2eee3" stroke="#e1dccd"/>
+        <text x="322" y="190" font-size="11" font-weight="600" fill="#b8761e" text-anchor="middle">↗ open</text>
+      </g>
+
+      <g transform="translate(384,0)" filter="url(#cardShadow2)">
+        <rect width="370" height="200" rx="12" fill="#ffffff" stroke="#e1dccd"/>
+        <rect x="16" y="16" width="60" height="22" rx="11" fill="#a83a2514" stroke="#a83a2555"/>
+        <circle cx="27" cy="27" r="3" fill="#a83a25"/>
+        <text x="36" y="31" font-size="11" font-weight="600" fill="#a83a25">MA3</text>
+        <text x="16" y="74" font-size="15" font-weight="600" fill="#1a1408">Acme Corp Tour — Spring 2026</text>
+        <text x="16" y="98" font-size="12" fill="#3d342a"><tspan fill="#a59a82">client </tspan>Acme Productions</text>
+        <text x="16" y="116" font-size="12" fill="#3d342a"><tspan fill="#a59a82">venue </tspan>22-city US tour</text>
+        <line x1="16" y1="170" x2="354" y2="170" stroke="#e1dccd"/>
+        <text x="16" y="188" font-size="11" font-family="'JetBrains Mono',monospace" fill="#7a6f5a">22 events · 3 days ago</text>
+        <rect x="290" y="176" width="64" height="20" rx="6" fill="#f2eee3" stroke="#e1dccd"/>
+        <text x="322" y="190" font-size="11" font-weight="600" fill="#b8761e" text-anchor="middle">↗ open</text>
+      </g>
+
+      <g transform="translate(768,0)" filter="url(#cardShadow2)">
+        <rect width="370" height="200" rx="12" fill="#ffffff" stroke="#e1dccd"/>
+        <rect x="16" y="16" width="68" height="22" rx="11" fill="#4f7a2f14" stroke="#4f7a2f55"/>
+        <circle cx="27" cy="27" r="3" fill="#4f7a2f"/>
+        <text x="36" y="31" font-size="11" font-weight="600" fill="#4f7a2f">Hog 4</text>
+        <text x="16" y="74" font-size="15" font-weight="600" fill="#1a1408">Seattle Symphony — Pops Series</text>
+        <text x="16" y="98" font-size="12" fill="#3d342a"><tspan fill="#a59a82">client </tspan>Seattle Symphony</text>
+        <text x="16" y="116" font-size="12" fill="#3d342a"><tspan fill="#a59a82">venue </tspan>Benaroya Hall</text>
+        <line x1="16" y1="170" x2="354" y2="170" stroke="#e1dccd"/>
+        <text x="16" y="188" font-size="11" font-family="'JetBrains Mono',monospace" fill="#7a6f5a">9 events · 2 weeks ago</text>
+        <rect x="290" y="176" width="64" height="20" rx="6" fill="#f2eee3" stroke="#e1dccd"/>
+        <text x="322" y="190" font-size="11" font-weight="600" fill="#b8761e" text-anchor="middle">↗ open</text>
+      </g>
+    </g>
+  </g>
+</svg>

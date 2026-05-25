@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 760" font-family="'Inter','DM Sans','Helvetica Neue',sans-serif">
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="760" fill="#0d0c0a"/>
+
+  <rect x="0" y="0" width="1280" height="32" fill="#15140f"/>
+  <circle cx="18" cy="16" r="5" fill="#e2725b"/>
+  <circle cx="36" cy="16" r="5" fill="#f0b557"/>
+  <circle cx="54" cy="16" r="5" fill="#7fb069"/>
+  <text x="640" y="20" font-size="11" fill="#5a5448" text-anchor="middle">localhost:3000 — Events</text>
+
+  <g transform="translate(64,68)">
+    <circle cx="9" cy="9" r="6" fill="#f0b557"/>
+    <text x="24" y="14" font-size="22" font-weight="700" fill="#f4ede0" letter-spacing="-0.4">Showfile Tracker</text>
+
+    <!-- Tabs -->
+    <g transform="translate(0,64)">
+      <line x1="0" y1="44" x2="1152" y2="44" stroke="#2b281f"/>
+      <text x="18" y="28" font-size="14" font-weight="500" fill="#8a8270">Library</text>
+      <text x="100" y="28" font-size="14" font-weight="600" fill="#f4ede0">Events</text>
+      <rect x="84" y="43" width="56" height="2" fill="#f0b557"/>
+      <text x="170" y="28" font-size="14" font-weight="500" fill="#8a8270">+ Add</text>
+      <text x="230" y="28" font-size="14" font-weight="500" fill="#8a8270">Settings</text>
+    </g>
+
+    <!-- Filters -->
+    <g transform="translate(0,128)" font-size="12">
+      <text x="0" y="-6" fill="#8a8270">From</text>
+      <rect x="0" y="2" width="160" height="38" rx="8" fill="#15140f" stroke="#2b281f"/>
+      <text x="12" y="26" fill="#d8d0bf">2025-01-01</text>
+
+      <text x="180" y="-6" fill="#8a8270">To</text>
+      <rect x="180" y="2" width="160" height="38" rx="8" fill="#15140f" stroke="#2b281f"/>
+      <text x="192" y="26" fill="#d8d0bf">2025-12-31</text>
+
+      <text x="360" y="-6" fill="#8a8270">Filter</text>
+      <rect x="360" y="2" width="420" height="38" rx="8" fill="#15140f" stroke="#2b281f"/>
+      <text x="372" y="26" fill="#5a5448">venue or showfile name</text>
+
+      <text x="800" y="26" font-size="12" fill="#8a8270">clear</text>
+    </g>
+
+    <text x="0" y="200" font-size="12" font-family="'JetBrains Mono',monospace" fill="#8a8270">47 events</text>
+
+    <!-- Month group: April 2025 -->
+    <g transform="translate(0,222)">
+      <text x="0" y="0" font-size="11" font-family="'JetBrains Mono',monospace" fill="#f0b557" letter-spacing="2">APRIL 2025</text>
+      <line x1="120" y1="-4" x2="1152" y2="-4" stroke="#2b281f"/>
+
+      <g transform="translate(0,16)" filter="url(#cardShadow)">
+        <rect width="1152" height="60" rx="10" fill="#15140f" stroke="#2b281f"/>
+        <text x="20" y="24" font-size="11" font-family="'JetBrains Mono',monospace" fill="#f4ede0">2025-04-20</text>
+        <text x="20" y="42" font-size="11" fill="#8a8270">Sun</text>
+        <text x="120" y="24" font-size="14" font-weight="600" fill="#f4ede0">Easter Sunday — 9am / 11am services</text>
+        <text x="120" y="44" font-size="12" fill="#8a8270">Sanctuary, Bellevue WA · Grace Community Church</text>
+        <rect x="780" y="20" width="220" height="22" rx="11" fill="#5b9bd522" stroke="#5b9bd555"/>
+        <circle cx="791" cy="31" r="3" fill="#5b9bd5"/>
+        <text x="800" y="35" font-size="11" font-weight="600" fill="#5b9bd5">Easter — Grace Community 2025</text>
+        <rect x="1020" y="20" width="78" height="22" rx="11" fill="#7fb06922" stroke="#7fb06955"/>
+        <text x="1059" y="35" font-size="11" font-weight="600" fill="#7fb069" text-anchor="middle">primary</text>
+      </g>
+
+      <g transform="translate(0,88)" filter="url(#cardShadow)">
+        <rect width="1152" height="60" rx="10" fill="#15140f" stroke="#2b281f"/>
+        <text x="20" y="24" font-size="11" font-family="'JetBrains Mono',monospace" fill="#f4ede0">2025-04-18</text>
+        <text x="20" y="42" font-size="11" fill="#8a8270">Fri</text>
+        <text x="120" y="24" font-size="14" font-weight="600" fill="#f4ede0">Good Friday service</text>
+        <text x="120" y="44" font-size="12" fill="#8a8270">Sanctuary, Bellevue WA</text>
+        <rect x="780" y="20" width="220" height="22" rx="11" fill="#5b9bd522" stroke="#5b9bd555"/>
+        <circle cx="791" cy="31" r="3" fill="#5b9bd5"/>
+        <text x="800" y="35" font-size="11" font-weight="600" fill="#5b9bd5">Easter — Grace Community 2025</text>
+        <rect x="1020" y="20" width="78" height="22" rx="11" fill="#7fb06922" stroke="#7fb06955"/>
+        <text x="1059" y="35" font-size="11" font-weight="600" fill="#7fb069" text-anchor="middle">primary</text>
+      </g>
+
+      <g transform="translate(0,160)" filter="url(#cardShadow)">
+        <rect width="1152" height="60" rx="10" fill="#15140f" stroke="#2b281f"/>
+        <text x="20" y="24" font-size="11" font-family="'JetBrains Mono',monospace" fill="#f4ede0">2025-04-12</text>
+        <text x="20" y="42" font-size="11" fill="#8a8270">Sat</text>
+        <text x="120" y="24" font-size="14" font-weight="600" fill="#f4ede0">Acme Tour — Portland, Crystal Ballroom</text>
+        <text x="120" y="44" font-size="12" fill="#8a8270">Crystal Ballroom · Acme Productions</text>
+        <rect x="780" y="20" width="220" height="22" rx="11" fill="#e08b3c22" stroke="#e08b3c55"/>
+        <circle cx="791" cy="31" r="3" fill="#e08b3c"/>
+        <text x="800" y="35" font-size="11" font-weight="600" fill="#e08b3c">Acme Corp Tour — Spring 2026</text>
+        <rect x="1020" y="20" width="78" height="22" rx="11" fill="#7fb06922" stroke="#7fb06955"/>
+        <text x="1059" y="35" font-size="11" font-weight="600" fill="#7fb069" text-anchor="middle">primary</text>
+      </g>
+    </g>
+
+    <!-- Month group: March 2025 -->
+    <g transform="translate(0,470)">
+      <text x="0" y="0" font-size="11" font-family="'JetBrains Mono',monospace" fill="#f0b557" letter-spacing="2">MARCH 2025</text>
+      <line x1="124" y1="-4" x2="1152" y2="-4" stroke="#2b281f"/>
+
+      <g transform="translate(0,16)" filter="url(#cardShadow)">
+        <rect width="1152" height="60" rx="10" fill="#15140f" stroke="#2b281f"/>
+        <text x="20" y="24" font-size="11" font-family="'JetBrains Mono',monospace" fill="#f4ede0">2025-03-29</text>
+        <text x="20" y="42" font-size="11" fill="#8a8270">Sat</text>
+        <text x="120" y="24" font-size="14" font-weight="600" fill="#f4ede0">Symphony Pops — Movie Music Night</text>
+        <text x="120" y="44" font-size="12" fill="#8a8270">Benaroya Hall · Seattle Symphony</text>
+        <rect x="780" y="20" width="220" height="22" rx="11" fill="#7ab87722" stroke="#7ab87755"/>
+        <circle cx="791" cy="31" r="3" fill="#7ab877"/>
+        <text x="800" y="35" font-size="11" font-weight="600" fill="#7ab877">Seattle Symphony — Pops Series</text>
+        <rect x="1020" y="20" width="78" height="22" rx="11" fill="#7fb06922" stroke="#7fb06955"/>
+        <text x="1059" y="35" font-size="11" font-weight="600" fill="#7fb069" text-anchor="middle">primary</text>
+      </g>
+
+      <g transform="translate(0,88)" filter="url(#cardShadow)">
+        <rect width="1152" height="60" rx="10" fill="#15140f" stroke="#2b281f"/>
+        <text x="20" y="24" font-size="11" font-family="'JetBrains Mono',monospace" fill="#f4ede0">2025-03-22</text>
+        <text x="20" y="42" font-size="11" fill="#8a8270">Sat</text>
+        <text x="120" y="24" font-size="14" font-weight="600" fill="#f4ede0">Velvet Lounge — DJ Set, Mira Voss</text>
+        <text x="120" y="44" font-size="12" fill="#8a8270">Capitol Hill, Seattle · weekly residency</text>
+        <rect x="780" y="20" width="220" height="22" rx="11" fill="#d4a23e22" stroke="#d4a23e55"/>
+        <circle cx="791" cy="31" r="3" fill="#d4a23e"/>
+        <text x="800" y="35" font-size="11" font-weight="600" fill="#d4a23e">Velvet Lounge — House Rig</text>
+        <rect x="1020" y="20" width="78" height="22" rx="11" fill="#7fb06922" stroke="#7fb06955"/>
+        <text x="1059" y="35" font-size="11" font-weight="600" fill="#7fb069" text-anchor="middle">primary</text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 820" font-family="'Inter','DM Sans','Helvetica Neue',sans-serif">
+  <defs>
+    <filter id="cardShadow3" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="820" fill="#0d0c0a"/>
+
+  <rect x="0" y="0" width="1280" height="32" fill="#15140f"/>
+  <circle cx="18" cy="16" r="5" fill="#e2725b"/>
+  <circle cx="36" cy="16" r="5" fill="#f0b557"/>
+  <circle cx="54" cy="16" r="5" fill="#7fb069"/>
+  <text x="640" y="20" font-size="11" fill="#5a5448" text-anchor="middle">localhost:3000 — Add showfile</text>
+
+  <g transform="translate(64,68)">
+    <circle cx="9" cy="9" r="6" fill="#f0b557"/>
+    <text x="24" y="14" font-size="22" font-weight="700" fill="#f4ede0" letter-spacing="-0.4">Showfile Tracker</text>
+
+    <!-- Tabs -->
+    <g transform="translate(0,64)">
+      <line x1="0" y1="44" x2="1152" y2="44" stroke="#2b281f"/>
+      <text x="18" y="28" font-size="14" font-weight="500" fill="#8a8270">Library</text>
+      <text x="100" y="28" font-size="14" font-weight="500" fill="#8a8270">Events</text>
+      <text x="170" y="28" font-size="14" font-weight="600" fill="#f4ede0">+ Add</text>
+      <rect x="160" y="43" width="56" height="2" fill="#f0b557"/>
+      <text x="230" y="28" font-size="14" font-weight="500" fill="#8a8270">Settings</text>
+    </g>
+
+    <!-- Mode chips -->
+    <g transform="translate(0,128)">
+      <rect x="0" y="0" width="132" height="34" rx="8" fill="#f0b557"/>
+      <text x="66" y="22" font-size="13" font-weight="600" fill="#1a1408" text-anchor="middle">+ New showfile</text>
+      <rect x="142" y="0" width="120" height="34" rx="8" fill="#15140f" stroke="#2b281f"/>
+      <text x="202" y="22" font-size="13" font-weight="500" fill="#f4ede0" text-anchor="middle">+ New event</text>
+    </g>
+
+    <!-- Form card -->
+    <g transform="translate(0,180)" filter="url(#cardShadow3)">
+      <rect width="1152" height="540" rx="12" fill="#15140f" stroke="#2b281f"/>
+
+      <!-- Row 1: Name (full) -->
+      <g transform="translate(28,28)" font-size="12">
+        <text x="0" y="0" fill="#8a8270" letter-spacing="1">NAME *</text>
+        <rect x="0" y="10" width="1096" height="40" rx="8" fill="#0d0c0a" stroke="#2b281f"/>
+        <text x="14" y="35" font-size="13" fill="#f4ede0">Easter — Grace Community 2025</text>
+      </g>
+
+      <!-- Row 2: Console family + version + format -->
+      <g transform="translate(28,98)" font-size="12">
+        <text x="0" y="0" fill="#8a8270" letter-spacing="1">CONSOLE FAMILY</text>
+        <rect x="0" y="10" width="240" height="40" rx="8" fill="#0d0c0a" stroke="#2b281f"/>
+        <circle cx="18" cy="30" r="4" fill="#5b9bd5"/>
+        <text x="32" y="35" font-size="13" fill="#f4ede0">Eos</text>
+        <text x="220" y="34" font-size="10" fill="#8a8270">▾</text>
+
+        <text x="260" y="0" fill="#8a8270" letter-spacing="1">VERSION</text>
+        <rect x="260" y="10" width="240" height="40" rx="8" fill="#0d0c0a" stroke="#2b281f"/>
+        <text x="274" y="35" font-size="13" fill="#f4ede0">3.2.7</text>
+
+        <text x="520" y="0" fill="#8a8270" letter-spacing="1">FILE FORMAT</text>
+        <rect x="520" y="10" width="240" height="40" rx="8" fill="#0d0c0a" stroke="#2b281f"/>
+        <text x="534" y="35" font-size="13" fill="#f4ede0">.esf3</text>
+        <text x="780" y="34" font-size="11" fill="#5a5448">suggested: .esf .esf3 .show</text>
+      </g>
+
+      <!-- Row 3: external_url + storage hint -->
+      <g transform="translate(28,182)" font-size="12">
+        <text x="0" y="0" fill="#8a8270" letter-spacing="1">EXTERNAL URL</text>
+        <rect x="0" y="10" width="760" height="40" rx="8" fill="#0d0c0a" stroke="#2b281f"/>
+        <text x="14" y="35" font-size="13" fill="#f4ede0">https://www.dropbox.com/s/abc123/Easter25.esf3</text>
+        <rect x="772" y="10" width="100" height="40" rx="8" fill="#7fb06914" stroke="#7fb06955"/>
+        <circle cx="788" cy="30" r="4" fill="#7fb069"/>
+        <text x="800" y="35" font-size="12" font-weight="600" fill="#7fb069">Dropbox</text>
+
+        <text x="884" y="0" fill="#8a8270" letter-spacing="1">STORAGE LABEL</text>
+        <rect x="884" y="10" width="212" height="40" rx="8" fill="#0d0c0a" stroke="#2b281f"/>
+        <text x="898" y="35" font-size="13" fill="#5a5448">e.g. silver USB</text>
+      </g>
+
+      <!-- Row 4: client + venue -->
+      <g transform="translate(28,266)" font-size="12">
+        <text x="0" y="0" fill="#8a8270" letter-spacing="1">CLIENT</text>
+        <rect x="0" y="10" width="540" height="40" rx="8" fill="#0d0c0a" stroke="#2b281f"/>
+        <text x="14" y="35" font-size="13" fill="#f4ede0">Grace Community Church</text>
+
+        <text x="560" y="0" fill="#8a8270" letter-spacing="1">VENUE</text>
+        <rect x="560" y="10" width="536" height="40" rx="8" fill="#0d0c0a" stroke="#2b281f"/>
+        <text x="574" y="35" font-size="13" fill="#f4ede0">Sanctuary, Bellevue WA</text>
+      </g>
+
+      <!-- Row 5: rig summary -->
+      <g transform="translate(28,350)" font-size="12">
+        <text x="0" y="0" fill="#8a8270" letter-spacing="1">RIG SUMMARY</text>
+        <rect x="0" y="10" width="1096" height="40" rx="8" fill="#0d0c0a" stroke="#2b281f"/>
+        <text x="14" y="35" font-size="13" fill="#f4ede0">house Eos Ti + 2x RPU · 12x Mac Aura, 16x ColorSource Spot, ETC Source Four LED2</text>
+      </g>
+
+      <!-- Row 6: tags + notes (small) -->
+      <g transform="translate(28,434)" font-size="12">
+        <text x="0" y="0" fill="#8a8270" letter-spacing="1">TAGS</text>
+        <rect x="0" y="10" width="540" height="40" rx="8" fill="#0d0c0a" stroke="#2b281f"/>
+        <text x="14" y="35" font-size="13" fill="#f4ede0">church, holiday, Ti</text>
+
+        <text x="560" y="0" fill="#8a8270" letter-spacing="1">NOTES (markdown)</text>
+        <rect x="560" y="10" width="536" height="40" rx="8" fill="#0d0c0a" stroke="#2b281f"/>
+        <text x="574" y="35" font-size="13" fill="#5a5448">### Macros · GP slider 1 = macro 12 (rain look) …</text>
+      </g>
+    </g>
+
+    <!-- Action buttons -->
+    <g transform="translate(0,740)">
+      <rect x="0" y="0" width="172" height="40" rx="8" fill="#f0b557"/>
+      <text x="86" y="25" font-size="13" font-weight="700" fill="#1a1408" text-anchor="middle">Save showfile</text>
+
+      <rect x="184" y="0" width="220" height="40" rx="8" fill="#15140f" stroke="#2b281f"/>
+      <text x="294" y="25" font-size="13" font-weight="500" fill="#d8d0bf" text-anchor="middle">Save and add an event…</text>
+    </g>
+  </g>
+</svg>
